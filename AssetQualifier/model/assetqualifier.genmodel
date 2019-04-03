@@ -7,5 +7,7 @@
     copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>assetqualifier.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
-  <genPackages prefix="Assetqualifier" disposableProviderFactory="true" ecorePackage="assetqualifier.ecore#/"/>
+  <genPackages prefix="Assetqualifier" disposableProviderFactory="true" ecorePackage="assetqualifier.ecore#/">
+    <genClasses ecoreClass="assetqualifier.ecore#//AssetType"/>
+  </genPackages>
 </genmodel:GenModel>

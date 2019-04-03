@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_h8MrIFW_Eemf5rtQfj2ZcA" selectedViews="_iPpLkFW_Eemf5rtQfj2ZcA" version="14.1.0.201810161215">
     <semanticResources>assetqualifier.ecore</semanticResources>
+    <semanticResources>assetqualifier.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_iPpLkFW_Eemf5rtQfj2ZcA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_iUXTgFW_Eemf5rtQfj2ZcA" name="assetqualifier" repPath="#_iROf8FW_Eemf5rtQfj2ZcA">
@@ -16,9 +17,29 @@
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_iU1NkFW_Eemf5rtQfj2ZcA" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_iU1NkVW_Eemf5rtQfj2ZcA" type="Sirius" element="_iROf8FW_Eemf5rtQfj2ZcA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_M_LCIFXAEemf5rtQfj2ZcA" type="2003" element="_M-maYFXAEemf5rtQfj2ZcA">
+          <children xmi:type="notation:Node" xmi:id="_M_OsgFXAEemf5rtQfj2ZcA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_M_RIwFXAEemf5rtQfj2ZcA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_M_RIwVXAEemf5rtQfj2ZcA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_M_RIwlXAEemf5rtQfj2ZcA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_M_LCIVXAEemf5rtQfj2ZcA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_LCIlXAEemf5rtQfj2ZcA" x="425" y="120" width="120" height="100"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_iU1NklW_Eemf5rtQfj2ZcA"/>
       </data>
     </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_M-maYFXAEemf5rtQfj2ZcA" name="AssetType" tooltipText="" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="assetqualifier.ecore#//AssetType"/>
+      <semanticElements xmi:type="ecore:EClass" href="assetqualifier.ecore#//AssetType"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_M-tvIFXAEemf5rtQfj2ZcA" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_iRzHsFW_Eemf5rtQfj2ZcA"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
