@@ -9,5 +9,6 @@
   <testsDirectory xsi:nil="true"/>
   <genPackages prefix="Assetqualifier" disposableProviderFactory="true" ecorePackage="assetqualifier.ecore#/">
     <genClasses ecoreClass="assetqualifier.ecore#//AssetType"/>
+    <genClasses ecoreClass="assetqualifier.ecore#//NewEClass2"/>
   </genPackages>
 </genmodel:GenModel>
